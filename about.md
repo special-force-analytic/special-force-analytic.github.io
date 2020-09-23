@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Us
 ---
 
 This is where we introduce our project and illustrate what we can do for you.

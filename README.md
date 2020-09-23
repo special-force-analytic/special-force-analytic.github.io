@@ -1,6 +1,6 @@
 special-force-analytic.github.io
 
-## Showcase
+## Showcase of Data Analytics for E-commerce data
 
 ### Background
 Talk a bit about O-list data set here.

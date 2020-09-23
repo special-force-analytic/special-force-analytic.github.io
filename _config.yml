@@ -6,4 +6,4 @@ description: A wonderful data analytic site
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal

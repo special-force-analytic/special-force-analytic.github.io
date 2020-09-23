@@ -1,8 +1,8 @@
 # basic options
 title: Special-Force-Analytic
 author: Mik and Mo
-email: wdaroontham@gmail.com and sarunkorn.cho@gmail.com
-description: A wonderful data analytic site
+email: wdaroontham@gmail.com sarunkorn.cho@gmail.com
+description: A data analytic for e-commerce showcase site
 
 # Build settings
 markdown: kramdown

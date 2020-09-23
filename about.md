@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 This is where we introduce our project and illustrate what we can do for you.

@@ -17,6 +17,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 <br>
 ![](img/recency.png)
 <br>
+
 |       |   recency |
 |:------|---------------------:|
 | count |             2977     |
@@ -33,6 +34,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 <br>
 ![](img/total_orders.png)
 <br>
+
 |       |   total_order |
 |:------|--------------:|
 | count |     2977      |
@@ -49,6 +51,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 <br>
 ![](img/days_between_orders.png)
 <br>
+
 |       |   days_btw_order |
 |:------|-----------------:|
 | count |      2977        |
@@ -65,6 +68,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 <br>
 ![](img/monetary_avg.png)
 <br>
+
 |       |   monetary_avg |
 |:------|---------------:|
 | count |       2977     |
@@ -81,6 +85,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 <br>
 ![](img/monetary_total.png)
 <br>
+
 |       |   monetary_sum |
 |:------|---------------:|
 | count |        2977    |
@@ -97,6 +102,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 <br>
 ![](img/quantity_avg.png)
 <br>
+
 |       |   quantity_avg |
 |:------|---------------:|
 | count |    2977        |
@@ -110,6 +116,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 <br>
 
 **Customer Single View**
+
 |    | seller_id                        |   recency |   total_order |   age |       frequency |   days_btw_order |   monetary_avg |   monetary_sum |   quantity_avg |   total_categories | category_with_most_sales   |
 |---:|:---------------------------------|---------------------:|--------------:|------:|-----------:|-----------------:|---------------:|---------------:|---------------:|--------:|:--------------------------------|
 |  0 | 0015a82c2db000af6aaaf3ae2ecb0532 |                  321 |             3 |   343 | 0.00874636 |        114.333   |       895      |         2685   |        1       |       1 | small_appliances                |

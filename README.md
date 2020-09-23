@@ -8,7 +8,7 @@ Talk a bit about O-list data set here.
 O-list data Schema
 ![](https://i.imgur.com/HRhd2Y0.png)
 
-### Customer analtics
+### Customer analytics
 
 #### Customer 360
 Extract customer insights from multi-dimensional transactional data and meta-data to a single view of customer.

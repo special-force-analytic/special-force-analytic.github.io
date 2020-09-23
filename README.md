@@ -1,5 +1,3 @@
-special-force-analytic.github.io
-
 ## Showcase of Data Analytics for E-commerce data
 
 ### Background

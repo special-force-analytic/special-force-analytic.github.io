@@ -28,6 +28,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 | 50%   |               48     |
 | 75%   |              212     |
 | max   |              701     |
+
 <br>
 
 **Total orders**
@@ -45,6 +46,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 | 50%   |        7      |
 | 75%   |       22      |
 | max   |     1844      |
+
 <br>
 
 **Days between orders**
@@ -62,6 +64,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 | 50%   |        27.6      |
 | 75%   |        83        |
 | max   |       701        |
+
 <br>
 
 **Average monetary**
@@ -79,6 +82,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 | 50%   |        105.337 |
 | 75%   |        188.61  |
 | max   |       6735     |
+
 <br>
 
 **Total monetary**
@@ -96,6 +100,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 | 50%   |         848.3  |
 | 75%   |        3522    |
 | max   |      229238    |
+
 <br>
 
 **Average quantity**
@@ -113,6 +118,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 | 50%   |       1        |
 | 75%   |       1.14286  |
 | max   |      15        |
+
 <br>
 
 **Customer Single View**
@@ -124,6 +130,7 @@ Extract customer insights from multi-dimensional transactional data and meta-dat
 |  2 | 002100f778ceb8431b7a1020ff7ab48f |                  145 |            51 |   355 | 0.143662   |          6.96078 |        24.2059 |         1234.5 |        1.07843 |       1 | furniture_decor                 |
 |  3 | 003554e2dce176b5555353e4f3555ac8 |                  263 |             1 |   263 | 0.00380228 |        263       |       120      |          120   |        1       |       1 | na                              |
 |  4 | 004c9cd9d87a3c30c522c48c4fc07416 |                  124 |           158 |   585 | 0.270085   |          3.70253 |       124.764  |        19712.7 |        1.07595 |       2 | bed_bath_table                  |
+
 <br>
 
 #### Customer segmentation
@@ -142,3 +149,10 @@ Segment customers based on the extracted insights. Customised treatment could be
 ![](img/segmentation_5.png)
 ![](img/segmentation_6.png)
 ![](img/segmentation_7.png)
+
+## TEST
+
+| **var** | **let** | **const** |
+|-----|-----|-----|
+| Declares a variable, optionally initializing it to a value. | Declares a block-scoped, local variable, optionally initializing it to a value. | Declares a block-scoped, read-only named constant. |
+| Variable declared by **`var`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`let`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. | Variable declared by **`const`** must start with a letter, underscore ( _ ) or dollar sign ($) and can contain alphabetic, numeric, or underscore characters. |

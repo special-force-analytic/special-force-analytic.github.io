@@ -7,8 +7,8 @@ This is where we introduce our project and illustrate what we can do for you.
 Hope you love it!
 
 Reasons:
-- its great.
-- its a test.
+* its great.
+* its a test.
 
 ## Other thoughts
 

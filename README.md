@@ -173,7 +173,7 @@ Analysis of geo-location by zip codes from country to city level throughout Braz
 <br>
 
 ### Other analyses by zip codes
-Geo-location dataset (with coordinates) can be used to understand and discover the data from another perspective, in this case, using the location of the customers. It can be merged with other types of datasets, such as 'customer information', 'seller', and 'order': to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can discover the revenue of the customers, calculate aggregated freight value, explore average delivery time, and so on.
+Geo-location dataset (with coordinates) can be used to understand and discover the data from another perspective, in this case, using the location of the customers. It can be merged with other types of datasets, such as Customer Information, Seller, and Order; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can discover the revenue of the customers, calculate aggregated freight value, explore average delivery time, and so on.
 
 <br>
 

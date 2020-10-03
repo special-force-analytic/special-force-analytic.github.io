@@ -184,11 +184,12 @@ Geo-location dataset (with coordinates) can be used to understand and discover t
 <br>
 
 ### Top 3 order cities
-|       city       | Number of orders |
-|:----------------:|:----------------:|
-|     Sao paulo    |      17808       |
-|  Rio de janeiro  |       7837       |
-|  Belo horizonte  |       3144       |
+
+City | Number of orders
+--- | --- 
+Sao paulo | 17808
+Rio de janeiro | 7837
+Belo horizonte | 3144
 
 <br>
 

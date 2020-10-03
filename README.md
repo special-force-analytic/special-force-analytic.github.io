@@ -163,3 +163,6 @@ Here are a sample customer segmentation performed on the dataset. Four segments 
 ![](img/segmentation_5.png)
 ![](img/segmentation_6.png)
 ![](img/segmentation_7.png)
+
+### Geo-Location Analysis
+{% include zip_code_location.html %}

@@ -164,5 +164,35 @@ Here are a sample customer segmentation performed on the dataset. Four segments 
 ![](img/segmentation_6.png)
 ![](img/segmentation_7.png)
 
-### Geo-Location Analysis
+## Geo-Location Analytics
+Analysis of geo-location by zip codes from country to city level throughout Brazil.
 {% include zip_code_location.html %}
+{% include zip_code_state_SP.html %}
+{% include zip_code_city_saopaulo.html %}
+
+<br>
+
+### Other analyses by zip codes
+Geo-location dataset (with coordinates) can be used to understand and discover the data from another perspective, in this case, using the location of the customers. It can be merged with other types of datasets, such as 'customer information', 'seller', and 'order': to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can discover the revenue of the customers, calculate aggregated freight value, explore average delivery time, and so on.
+
+<br>
+
+{% include zip_code_revenue.html %}
+{% include zip_code_transport_cost.html %}
+{% include zip_code_delivery_time.html %}
+
+<br>
+
+### Top 3 order cities
+|   city    |   Number of orders |
+|:------:|:---------------:|
+| Sao paulo  |       17,808  |
+| Rio de janeiro   |       7,837 |
+| Belo horizonte   |       3,144        |
+
+<br>
+
+{% include order_map_sao.html %}
+{% include order_map_rio.html %}
+{% include order_map_bel.html %}
+

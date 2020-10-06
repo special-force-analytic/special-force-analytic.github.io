@@ -1,6 +1,4 @@
----
-title: Our Analyses
----
+# Our Analyses
 
 # Showcase of Data Analytics in E-commerce
 

@@ -3,6 +3,10 @@ title: Special-Force-Analytic
 author: Witchapong D. and Sarunkorn C.
 email: email@gmail.com
 description: A data analytic for e-commerce showcase site
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
 
 # Build settings
 markdown: kramdown

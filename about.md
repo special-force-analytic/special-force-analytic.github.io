@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: About Us
+permalink: /about/
 ---
 
 This is where we introduce our project and illustrate what we can do for you.

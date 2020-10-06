@@ -1,14 +1,14 @@
-# Showcase of Data Analytics for E-commerce Data
+# Our Analyses
 
 ## Dataset Background
 We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com/olistbr/brazilian-ecommerce) made at [Olist Store](https://olist.com/) as our sample dataset to showcase applications of Data Analytics in E-commerce. The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews. The data schema of this dataset is as follows:
 
 ![](https://i.imgur.com/HRhd2Y0.png)
 
-## Customer Analytics
+## 1. Customer Analytics
 Here we demonstrated applications of Data Ananlytics on an aspect of customers in E-commerce data. The first one is extracting of a Single Customer View from multi-dimensional data. The second one is a Customer Segmentation using a Machine Learning Model.
 
-### Single Customer View
+### 1.1 Single Customer View
 A single customer view is multi-dimensional data of customers boiled down to a single record for ease of sorting or filtering in different aspects. Multiple features which reflect behaviour and value of customers are extracted so these could be further used to customise user experience or make informed marketing decisions.
 <br><br>
 The following table is a sample of a customer single view extracted from the sample dataset.
@@ -145,7 +145,7 @@ Each of the feature could be further summarised for an overview look of customer
 
 <br>
 
-### Customer Segmentation
+### 1.2 Customer Segmentation
 A customer segmentation could be automatically computed using a Unsupervised Machine Learning Model based on the Single Customer View. Segments of similar customers are extracted so that customised actions and plans could be crafted for each segment to maximise the business outcome.
 <br><br>
 Here are a sample customer segmentation performed on the dataset. Four segments of customer were derived. Each of them are different in serveral aspects and posesses different business values. For example, a marketing campaign to attract more traffic to the platform would probably focus on sellers in the `Highest value` segment. On the other hand, a marketing campaign for promoting growth of potential sellers would probably focus on sellers in the `Rising star` segment.
@@ -163,3 +163,39 @@ Here are a sample customer segmentation performed on the dataset. Four segments 
 ![](img/segmentation_5.png)
 ![](img/segmentation_6.png)
 ![](img/segmentation_7.png)
+
+## 2. Geo-Location Analytics
+Geo-location dataset (with coordinates) can be used to understand and discover the data from another perspective, in this case, using the location of the customers. This section use dataset purely from the geo0location to plot the distribution of zip codes across the country, states, and cities level.
+
+Analysis of geo-location by zip codes from country to city level throughout Brazil.
+{% include zip_code_location.html %}
+{% include zip_code_state_SP.html %}
+{% include zip_code_city_saopaulo.html %}
+
+<br>
+
+### 2.1 Other analyses by zip codes
+Geo-location dataset can be merged with other types of datasets, such as **Customer Information**, **Seller**, and **Order**; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can discover the revenue of the order, calculate aggregated freight value, explore average delivery time, and so on in zip code level.
+
+<br>
+
+{% include zip_code_revenue.html %}
+{% include zip_code_transport_cost.html %}
+{% include zip_code_delivery_time.html %}
+
+<br>
+
+### 2.2 Which region has the most order?
+
+City | Number of orders
+--- | --- 
+Sao paulo | 17808
+Rio de janeiro | 7837
+Belo horizonte | 3144
+
+<br>
+
+{% include order_map_sao.html %}
+{% include order_map_rio.html %}
+{% include order_map_bel.html %}
+

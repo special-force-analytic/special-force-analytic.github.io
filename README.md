@@ -229,3 +229,8 @@ Belo horizonte | 3144
 {% include order_map_rio.html %}
 {% include order_map_bel.html %}
 
+<br>
+
+### 2.3 What product should be recommend in different region?
+
+{% include product_ratio_state.html %}

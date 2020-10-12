@@ -248,3 +248,14 @@ Belo horizonte | 3144
 {% include order_map_sao.html %}
 {% include order_map_rio.html %}
 {% include order_map_bel.html %}
+<<<<<<< HEAD
+=======
+
+<br>
+
+### 3.3 What product should be recommend in different region? (normalised to the number of customer)
+By including **Product** dataset in the existing geo-location analytics, we can explore what product is more preferred in regional level.
+It is clear that although big cities like Sao Paolo and Rio have mroe order than the other regions, preference of product for customer (in states level) can be varied and may not conform the high-demand.
+
+{% include product_ratio_state.html %}
+>>>>>>> eca8770137d5e0371c44c1014219594a32c74864

@@ -7,7 +7,7 @@ We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com
 
 ![](https://i.imgur.com/HRhd2Y0.png)
 
-## 1. Customer Analytics
+## 1. Seller Analytics
 Here we demonstrated applications of Data Ananlytics on an aspect of customers in E-commerce data. The first one is extracting of a Single Customer View from multi-dimensional data. The second one is a Customer Segmentation using a Machine Learning Model.
 
 ### 1.1 Single Customer View
@@ -165,6 +165,34 @@ Here are a sample customer segmentation performed on the dataset. Four segments 
 ![](img/segmentation_5.png)
 ![](img/segmentation_6.png)
 ![](img/segmentation_7.png)
+
+## 2. Returning Customers Analytics
+Another important aspect of customers analytics is to understand and differentiate between one-time customers and returning customers. Questions like How many customers are one-time or returning type?, Does the returning customers tend to spend more?, What makes returning customers return to the platform?, or How does the retention change over time on a platform? are all important questions to ask to gain insight on How could a platform retain more of its customers?
+
+### 2.1 Overview look of one-time vs returning customers
+Only 3% of 96K unique customers is returning on the platform.
+
+![](img/returning_customer2.png)
+![](img/returning_customer.png)
+
+The two groups are not different on the aspect of spending. The median of purchased product prices are X and Y for one-time and returning customers, respectively.
+
+![](img/price_distribution.png)
+
+### 2.2 What makes customers return to the platform?
+It worths discovering which product categories are preferred by returning customers compared to one-time customers. Here, it was observed that returning customers tend to buy more of the following product categories: `bed_bath_table`, `fashion_bags_accesories`, `furniture_decors`, `home_appliances`, and `sports_lerisure`
+
+![](img/category_distribution.png)
+
+Even though there is no difference in payment method preference of the two groups, returning customers tend to pay with slightly longer installment.
+
+![](img/payment_method.png)
+
+![](img/payment_installment.png)
+
+### 2.3 Customer retention over time
+
+![](img/cohort.png)
 
 ## 2. Geo-Location Analytics
 Geo-location dataset (with coordinates) can be used to understand and discover the data from another perspective, in this case, using the location of the customers. This section use dataset purely from the geo0location to plot the distribution of zip codes across the country, states, and cities level.

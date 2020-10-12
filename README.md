@@ -8,12 +8,17 @@ We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com
 ![](https://i.imgur.com/HRhd2Y0.png)
 
 ## 1. Seller Analytics
-Here we demonstrated applications of Data Ananlytics on an aspect of customers in E-commerce data. The first one is extracting of a Single Customer View from multi-dimensional data. The second one is a Customer Segmentation using a Machine Learning Model.
+Here we demonstrated applications of Data Ananlytics on the aspect of sellers on E-commerce data. The first one is extracting of a Single Customer View from multi-dimensional data. The second one is a Seller Segmentation using a Machine Learning Model.
+<br>
+Following datas were used for this Seller Analytics analysis: 
+1. `olist_orders_dataset`
+2. `olist_order_items_dataset`
+3. `olist_products_dataset`
 
 ### 1.1 Single Customer View
-A single customer view is multi-dimensional data of customers boiled down to a single record for ease of sorting or filtering in different aspects. Multiple features which reflect behaviour and value of customers are extracted so these could be further used to customise user experience or make informed marketing decisions.
+A single customer view is multi-dimensional data of sellers boiled down to a single record for ease of sorting or filtering in different aspects. Multiple features which reflect behaviour and value of different sellers are extracted so these could be further used to customise user experience or make informed marketing decisions.
 <br><br>
-The following table is a sample of a customer single view extracted from the sample dataset.
+The following table is a sample of a single customer view extracted from the sample dataset.
 <br>
 Here are the explanation of each feature:
 - `recency` : When was the last time that a customer active?
@@ -27,16 +32,16 @@ Here are the explanation of each feature:
 - `total_categories` : How many product categories does a seller have?
 - `category_with_most_sales` : What is the best seller category of a seller?
 
-|    | seller_id                        |   recency |   total_order |   age |       frequency |   days_btw_order |   monetary_avg |   monetary_sum |   quantity_avg |   total_categories | category_with_most_sales   |
-|:---:|:---------------------------------:|:---------------------:|:--------------:|:------:|:-----------:|:-----------------:|:---------------:|:---------------:|:---------------:|:--------:|:--------------------------------:|
-|  0 | 0015a82c2db000af6aaaf3ae2ecb0532 |                  321 |             3 |   343 | 0.00874636 |        114.333   |       895      |         2685   |        1       |       1 | small_appliances                |
-|  1 | 001cca7ae9ae17fb1caed9dfb1094831 |                   54 |           200 |   577 | 0.34662    |          2.885   |       125.4    |        25080   |        1.195   |       2 | garden_tools                    |
-|  2 | 002100f778ceb8431b7a1020ff7ab48f |                  145 |            51 |   355 | 0.143662   |          6.96078 |        24.2059 |         1234.5 |        1.07843 |       1 | furniture_decor                 |
-|  3 | 003554e2dce176b5555353e4f3555ac8 |                  263 |             1 |   263 | 0.00380228 |        263       |       120      |          120   |        1       |       1 | na                              |
-|  4 | 004c9cd9d87a3c30c522c48c4fc07416 |                  124 |           158 |   585 | 0.270085   |          3.70253 |       124.764  |        19712.7 |        1.07595 |       2 | bed_bath_table                  |
+| seller_id                        |   recency |   total_order |   age |       frequency |   days_btw_order |   monetary_avg |   monetary_sum |   quantity_avg |   total_categories | category_with_most_sales   |
+|:---------------------------------:|:---------------------:|:--------------:|:------:|:-----------:|:-----------------:|:---------------:|:---------------:|:---------------:|:--------:|:--------------------------------:|
+| 0015a82c2db000af6aaaf3ae2ecb0532 |                  321 |             3 |   343 | 0.00874636 |        114.333   |       895      |         2685   |        1       |       1 | small_appliances                |
+| 001cca7ae9ae17fb1caed9dfb1094831 |                   54 |           200 |   577 | 0.34662    |          2.885   |       125.4    |        25080   |        1.195   |       2 | garden_tools                    |
+| 002100f778ceb8431b7a1020ff7ab48f |                  145 |            51 |   355 | 0.143662   |          6.96078 |        24.2059 |         1234.5 |        1.07843 |       1 | furniture_decor                 |
+| 003554e2dce176b5555353e4f3555ac8 |                  263 |             1 |   263 | 0.00380228 |        263       |       120      |          120   |        1       |       1 | na                              |
+| 004c9cd9d87a3c30c522c48c4fc07416 |                  124 |           158 |   585 | 0.270085   |          3.70253 |       124.764  |        19712.7 |        1.07595 |       2 | bed_bath_table                  |
 
 <br>
-Each of the feature could be further summarised for an overview look of customers in different prospectives.
+Each of the feature could be further summarised for an overview look of sellers in different prospectives.
 <br>
 
 **Recency**
@@ -147,24 +152,37 @@ Each of the feature could be further summarised for an overview look of customer
 
 <br>
 
-### 1.2 Customer Segmentation
-A customer segmentation could be automatically computed using a Unsupervised Machine Learning Model based on the Single Customer View. Segments of similar customers are extracted so that customised actions and plans could be crafted for each segment to maximise the business outcome.
+### 1.2 Seller Segmentation
+A seller segmentation could be automatically computed using a Unsupervised Machine Learning Model based on the Single Customer View. Segments of similar sellers are extracted so that customised actions and plans could be crafted for each segment to maximise the business outcome.
 <br><br>
-Here are a sample customer segmentation performed on the dataset. Four segments of customer were derived. Each of them are different in serveral aspects and posesses different business values. For example, a marketing campaign to attract more traffic to the platform would probably focus on sellers in the `Highest value` segment. On the other hand, a marketing campaign for promoting growth of potential sellers would probably focus on sellers in the `Rising star` segment.
+Here are a sample seller segmentation performed on the dataset. Four segments of seller were derived. Each of them are different in serveral aspects and posesses different business values. For example, a marketing campaign to attract more traffic to the platform would probably focus on sellers in the segment with highest monetary value. On the other hand, a marketing campaign for promoting growth of potential sellers would probably focus on sellers in the segment of new sellers who already made some impressive sales.
 
 **Segment profiles**
 - `0` : Rising star - These are new sellers who are gaining tractions on orders and have potential to be valuable sellers.
-- `1` : X potential customer - These are potential sellers who has been on the platform for a long time but are recently less active.
-- `2` : Highest value sellers - These are the sellers with higest values.
+- `1` : Good old day - These were sellers who has been on the platform for a long time but are recently less active.
+- `2` : Champion - These are the sellers with higest values.
 - `3` : Inactive - These are inactive sellers.
 
-![](img/segmentation_1.png)
+Here is a table for summarising differnt features of each seller segment.
+
+| Segment id | Segment name | #Sellers | Total monetary | Total order | Average monetary per order | Recency | Averge days between orders | Age on platform |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 0 | Rising star | ~800 | Low | Low (< 10 orders) | Small value | Recent (< 50 days) | Short (< 30 days) | Youngest (~100 days) |
+| 1 | Good old day | ~700 | Medium | Medium (> 10 orders) | Largest value | Long ago (~ 200 days) | Long (~75 days) | Oldest (~450 days) |
+| 2 | Champion | ~800 | High | Highest (> 100 orders) | Small value | Recent (< 50 days) | Shortest (< 10 days) | Old (~400 days) |
+| 3 | Inactive | ~700 | Low | Lowest (<< 10 order) | Small value | Long ago (~ 300 days) | Longest (> 200 days) | Old (~350 days) |
+
+To visualize different features of each seller segment, bubble plots between an average value of Total monetary and other features were presented below where a bubble size represents a size of population.
+
 ![](img/segmentation_2.png)
-![](img/segmentation_3.png)
-![](img/segmentation_4.png)
-![](img/segmentation_5.png)
+
 ![](img/segmentation_6.png)
-![](img/segmentation_7.png)
+
+![](img/segmentation_1.png)
+
+![](img/segmentation_5.png)
+
+![](img/segmentation_3.png)
 
 ## 2. Returning Customers Analytics
 Another important aspect of customers analytics is to understand and differentiate between one-time customers and returning customers. Questions like How many customers are one-time or returning type?, Does the returning customers tend to spend more?, What makes returning customers return to the platform?, or How does the retention change over time on a platform? are all important questions to ask to gain insight on How could a platform retain more of its customers?
@@ -173,6 +191,7 @@ Another important aspect of customers analytics is to understand and differentia
 Only 3% of 96K unique customers is returning on the platform.
 
 ![](img/returning_customer2.png)
+
 ![](img/returning_customer.png)
 
 The two groups are not different on the aspect of spending. The median of purchased product prices are X and Y for one-time and returning customers, respectively.
@@ -190,11 +209,12 @@ Even though there is no difference in payment method preference of the two group
 
 ![](img/payment_installment.png)
 
-### 2.3 Customer retention over time
+### 2.3 Customers Retention Over Time
+Next, we'll be looking at how customers in each cohort group retain on the platform. It became clear that all of the cohort groups have retention rate no more than 1% and it was more likely to retain 1% of customer during the next month of first puchase month.
 
 ![](img/cohort.png)
 
-## 2. Geo-Location Analytics
+## 3. Geo-Location Analytics
 Geo-location dataset (with coordinates) can be used to understand and discover the data from another perspective, in this case, using the location of the customers. This section use dataset purely from the geo0location to plot the distribution of zip codes across the country, states, and cities level.
 
 Analysis of geo-location by zip codes from country to city level throughout Brazil.
@@ -204,7 +224,7 @@ Analysis of geo-location by zip codes from country to city level throughout Braz
 
 <br>
 
-### 2.1 Other analyses by zip codes
+### 3.1 Other analyses by zip codes
 Geo-location dataset can be merged with other types of datasets, such as **Customer Information**, **Seller**, and **Order**; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can discover the revenue of the order, calculate aggregated freight value, explore average delivery time, and so on in zip code level.
 
 <br>
@@ -215,7 +235,7 @@ Geo-location dataset can be merged with other types of datasets, such as **Custo
 
 <br>
 
-### 2.2 Which region has the most order?
+### 3.2 Which region has the most order?
 
 City | Number of orders
 --- | --- 
@@ -228,4 +248,3 @@ Belo horizonte | 3144
 {% include order_map_sao.html %}
 {% include order_map_rio.html %}
 {% include order_map_bel.html %}
-

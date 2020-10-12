@@ -194,7 +194,7 @@ Even though there is no difference in payment method preference of the two group
 
 ![](img/cohort.png)
 
-## 2. Geo-Location Analytics
+## 3. Geo-Location Analytics
 Geo-location dataset (with coordinates) can be used to understand and discover the data from another perspective, in this case, using the location of the customers. This section use dataset purely from the geo0location to plot the distribution of zip codes across the country, states, and cities level.
 
 Analysis of geo-location by zip codes from country to city level throughout Brazil.
@@ -204,7 +204,7 @@ Analysis of geo-location by zip codes from country to city level throughout Braz
 
 <br>
 
-### 2.1 Other analyses by zip codes
+### 3.1 Other analyses by zip codes
 Geo-location dataset can be merged with other types of datasets, such as **Customer Information**, **Seller**, and **Order**; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can discover the revenue of the order, calculate aggregated freight value, explore average delivery time, and so on in zip code level.
 
 <br>
@@ -215,7 +215,7 @@ Geo-location dataset can be merged with other types of datasets, such as **Custo
 
 <br>
 
-### 2.2 Which region has the most order?
+### 3.2 Which region has the most order?
 
 City | Number of orders
 --- | --- 
@@ -231,6 +231,8 @@ Belo horizonte | 3144
 
 <br>
 
-### 2.3 What product should be recommend in different region?
+### 3.3 What product should be recommend in different region? (normalised to the number of customer)
+By including **Product** dataset in the existing geo-location analytics, we can explore what product is more preferred in regional level.
+It is clear that although big cities like Sao Paolo and Rio have mroe order than the other regions, preference of product for customer (in states level) can be varied and may not conform the high-demand.
 
 {% include product_ratio_state.html %}

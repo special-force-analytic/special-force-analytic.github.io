@@ -1,5 +1,3 @@
-# Showcase of Data Analytics for E-commerce Data
-
 ## Dataset Background
 We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com/olistbr/brazilian-ecommerce) made at [Olist Store](https://olist.com/) as our sample dataset to showcase applications of Data Analytics in E-commerce. The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews. The data schema of this dataset is as follows:
 
@@ -153,7 +151,7 @@ Here are a sample customer segmentation performed on the dataset. Four segments 
 **Segment profiles**
 - `0` : Rising star - These are new sellers who are gaining tractions on orders and have potential to be valuable sellers.
 - `1` : X potential customer - These are potential sellers who has been on the platform for a long time but are recently less active.
-- `2` : Highest value sellers - These are sellers with higest values.
+- `2` : Highest value sellers - These are the sellers with higest values.
 - `3` : Inactive - These are inactive sellers.
 
 ![](img/segmentation_1.png)

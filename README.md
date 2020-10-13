@@ -1,4 +1,4 @@
-# Main
+# Home
 
 # Showcase of Data Analytics in E-commerce
 

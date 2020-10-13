@@ -6,7 +6,7 @@ description: A data analytic for e-commerce showcase site
 
 header_pages:
 - about.md
-- appendix.md
+- analyses.md
 
 plugins:
   - jekyll-titles-from-headings

@@ -248,8 +248,6 @@ Belo horizonte | 3144
 {% include order_map_sao.html %}
 {% include order_map_rio.html %}
 {% include order_map_bel.html %}
-<!--- <<<<<<< HEAD
-======= -->
 
 <br>
 
@@ -258,4 +256,3 @@ By including `olist_products_dataset` dataset in the existing geo-location analy
 It is clear that although big cities like Sao Paolo and Rio have more order than the other regions, preference of product for customer (in states level) can be varied and may not conform the high-demand.
 
 {% include product_ratio_state.html %}
-<!--- >>>>>>> eca8770137d5e0371c44c1014219594a32c74864 -->

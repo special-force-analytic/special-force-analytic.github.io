@@ -1,8 +1,8 @@
 # basic options
 title: Special-Force-Analytic
+description: A data analytic for e-commerce showcase site
 author: Sarunkorn C. and Witchapong D.
 email: email@gmail.com
-description: A data analytic for e-commerce showcase site
 
 header_pages:
 - about.md

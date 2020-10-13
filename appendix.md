@@ -6,10 +6,6 @@ permalink: /appendix/
 
 This is Appendix page where additional contents or analyses is being placed and referred.
 
-# Analyses
-
-# Showcase of Data Analytics in E-commerce
-
 ## Dataset Background
 We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com/olistbr/brazilian-ecommerce) made at [Olist Store](https://olist.com/) as our sample dataset to showcase applications of Data Analytics in E-commerce. The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews. The data schema of this dataset is as follows:
 

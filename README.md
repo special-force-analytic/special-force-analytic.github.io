@@ -215,7 +215,7 @@ Next, we'll be looking at how customers in each cohort group retain on the platf
 ![](img/cohort.png)
 
 ## 3. Geo-Location Analytics
-Geo-location dataset (with coordinates) can be used to understand and discover the data from another perspective, in this case, using the location of the customers. This section use dataset purely from the geo0location to plot the distribution of zip codes across the country, states, and cities level.
+`olist_geolocation_dataset` can be used to discover and understand the data from the location perspective, in this case, using the location of the customers. This section use dataset purely from the geo-location to plot the distribution of zip codes across the country, states, and cities level.
 
 Analysis of geo-location by zip codes from country to city level throughout Brazil.
 {% include zip_code_location.html %}
@@ -225,7 +225,7 @@ Analysis of geo-location by zip codes from country to city level throughout Braz
 <br>
 
 ### 3.1 Other analyses by zip codes
-Geo-location dataset can be merged with other types of datasets, such as **Customer Information**, **Seller**, and **Order**; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can discover the revenue of the order, calculate aggregated freight value, explore average delivery time, and so on in zip code level.
+Geo-location dataset can be merged with other types of datasets, such as `olist_order_customer_dataset`, `olist_orders_dataset`, and `olist_order_items_dataset`; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can 1) discover the revenue of the order, 2) calculate aggregated freight value per area, 3) explore average delivery time, and so on in zip code level.
 
 <br>
 
@@ -248,14 +248,14 @@ Belo horizonte | 3144
 {% include order_map_sao.html %}
 {% include order_map_rio.html %}
 {% include order_map_bel.html %}
-<<<<<<< HEAD
-=======
+<!--- <<<<<<< HEAD
+======= -->
 
 <br>
 
 ### 3.3 What product should be recommend in different region? (normalised to the number of customer)
-By including **Product** dataset in the existing geo-location analytics, we can explore what product is more preferred in regional level.
-It is clear that although big cities like Sao Paolo and Rio have mroe order than the other regions, preference of product for customer (in states level) can be varied and may not conform the high-demand.
+By including `olist_products_dataset` dataset in the existing geo-location analytics, we can explore what product is more preferred in regional level.
+It is clear that although big cities like Sao Paolo and Rio have more order than the other regions, preference of product for customer (in states level) can be varied and may not conform the high-demand.
 
 {% include product_ratio_state.html %}
->>>>>>> eca8770137d5e0371c44c1014219594a32c74864
+<!--- >>>>>>> eca8770137d5e0371c44c1014219594a32c74864 -->

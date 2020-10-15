@@ -4,7 +4,7 @@ title: About Us
 permalink: /about/
 ---
 
-## Dr. Sarunkorn Chotvijit
+### Dr. Sarunkorn Chotvijit
 #### Former Senior Data Science Researcher
 * PhD in Urban Science at University of Warwick
 * MSc in Data Analytics at University of Warwick
@@ -12,7 +12,7 @@ permalink: /about/
 
 <br>
 
-## Witchapong Daroontham
+### Witchapong Daroontham
 #### Senior Data Scientist at Central Group:
 * MSc in Telecommunication Engineering at University College London (UCL)
 * BSc in Electronic and Communication Communication at SIIT
@@ -24,7 +24,7 @@ itemise:
 -->
 
 ## Who we are?
-Founded in September 2020, **Special-Force-AI** is a one stop technology consulting company seeking to provide a digital transformation and solution through the power of AI technology such as Data Analytics and Machine Learning. We help enterprises accelerate their business capability by elevating the value from data, solving the complex chanllenges and delivering new business solution to achieve real business benefits.
+Founded in September 2020, **Special-Force-AI** is a one stop technology consulting company seeking to provide a digital transformation and solution through the power of data and AI technology such as Data Analytics and Machine Learning. We help enterprises accelerate their business capability by elevating the value from data, solving the complex chanllenges and delivering new business solution to achieve real business benefits.
 
 ## Our Vision?
 TBA

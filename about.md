@@ -5,17 +5,17 @@ permalink: /about/
 ---
 
 ## Dr. Sarunkorn Chotvijit
-### Former Senior Data Science Researcher
-#### PhD in Urban Science at University of Warwick
-#### MSc in Data Analytics at University of Warwick
-#### BSc in Computer Science at SIIT
+#### Former Senior Data Science Researcher
+* PhD in Urban Science at University of Warwick
+* MSc in Data Analytics at University of Warwick
+* BSc in Computer Science at SIIT
 
 <br>
 
 ## Witchapong Daroontham
-### Senior Data Scientist at Central Group
-#### MSc in Telecommunication Engineering at University College London (UCL)
-#### BSc in Electronic and Communication Communication at SIIT
+#### Senior Data Scientist at Central Group:
+* MSc in Telecommunication Engineering at University College London (UCL)
+* BSc in Electronic and Communication Communication at SIIT
 
 <!---
 itemise:

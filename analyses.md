@@ -11,6 +11,16 @@ We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com
 
 ![](https://i.imgur.com/HRhd2Y0.png)
 
+Datasets information
+* `olist_orders_dataset` : This is the core dataset. From each order you might find all other information.
+* `olist_order_customer_dataset` : This dataset has information about the customer and their location.
+* `olist_order_items_dataset` : This dataset includes data about the items purchased within each order.
+* `olist_order_payments_dataset` : This dataset includes data about the orders payment options.
+* `olist_order_reviews_dataset` : This dataset includes data about the reviews made by the customers.
+* `olist_products_dataset` : This dataset includes data about the products sold by the company. (e.g. weight, height, width)
+* `olist_sellers_dataset` : This dataset includes data about the sellers that fulfilled orders made at the company and its location and to identify which seller fulfilled each product.
+* `olist_geolocation_dataset` : This dataset has information Brazilian zip codes and its lat/lng coordinates.
+
 ## 1. Seller Analytics
 Here we demonstrated applications of Data Ananlytics on the aspect of sellers on E-commerce data. The first one is extracting of a Single Customer View from multi-dimensional data. The second one is a Seller Segmentation using a Machine Learning Model.
 <br>

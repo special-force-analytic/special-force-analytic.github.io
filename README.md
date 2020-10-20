@@ -9,6 +9,11 @@ We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com
 ![](img/CDAPD.png)
 
 ## What can we offer?
+* **Special-Force-AI** can help you discovering a proper solution to directly solve the issue or pain-point of your company rapidly
+* **Special-Force-AI** is capable of analysing many data types (unstructure to structure) and from individual to company perspectives
+* **Special-Force-AI** not only focus on applying advance analytic tools and techniques, but also able to deliver an optimised meaningful outcome based on your specific requirements
+* **Special-Force-AI** expertise covers Data Structure, Data Mining and Processing, EDA, Machine Learning, NLP, and Data Visualization
+<br>
 * Offline Analytics
   * Basic EDA Analysis
   * Machine Learning (optional)

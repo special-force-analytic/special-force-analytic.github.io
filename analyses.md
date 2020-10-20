@@ -271,3 +271,34 @@ It is clear that although big cities like Sao Paolo and Rio have more order than
 
 {% include product_ratio_state.html %}
 
+
+## 4. Review Analysis
+We could also extract insightful information from text data using the customer reviews data from `olist_order_reviews_dataset`. In the following table, reviews interm of rating and comment corresponding to orders are given.
+<br>
+First, we analyzed the overall proportion of the review rating. Here, we selected 41,753 reviews with non-empty review comments out of 100,000 all reviews for the analysis. We observed that around half of the reviews got the excellent rating score of 5. On the other hand, the bad rating score of less than or equal to 2 accounts for around 25% of all reviews.
+
+![](img/review_bar.png)
+
+<br>
+Next, we analyzed the tone of language used for different review rating scores. We used word cloud as our tool of analysis here where frequently appearing words are represented by larger fonts in the cloud.
+By visualizing the tone of language in customer review comments could lead to insight about what customers like or do not like about particular services or products.
+<br>
+Word cloud of review rating of 1.
+
+![](img/review_1.png)
+
+Word cloud of review rating of 2.
+
+![](img/review_2.png)
+
+Word cloud of review rating of 3.
+
+![](img/review_3.png)
+
+Word cloud of review rating of 4.
+
+![](img/review_4.png)
+
+Word cloud of review rating of 5.
+
+![](img/review_5.png)

@@ -4,10 +4,10 @@ title: Analyses
 permalink: /analyses/
 ---
 
-This is Analyses page where additional contents or analyses is being placed and referred.
+This is the Analyses page where all analysis contents are being placed and referred. We demonstrate applications of Data Ananlytics on the aspect of sellers, customers, geolocation, and review analyses of the E-commerce data.
 
 ## Dataset Background
-We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com/olistbr/brazilian-ecommerce) made at [Olist Store](https://olist.com/) as our sample dataset to showcase applications of Data Analytics in E-commerce. The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews. The data schema of this dataset is as follows:
+We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com/olistbr/brazilian-ecommerce) made at [Olist Store](https://olist.com/) as our sample dataset to showcase applications of Data Analytics in E-commerce. The dataset is a sample real commercial data from the e-commerce company. All the confidential and sensitive information have been anonymised to protect privacy and rights of all stakeholers' information. It contains roughly 100k orders covering from 2016 to 2018 happen at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews. The data schema of this dataset is as follows:
 
 ![](https://i.imgur.com/HRhd2Y0.png)
 
@@ -21,21 +21,21 @@ Datasets information
 * `olist_sellers_dataset` : This dataset includes data about the sellers that fulfilled orders made at the company and its location and to identify which seller fulfilled each product.
 * `olist_geolocation_dataset` : This dataset has information Brazilian zip codes and its lat/lng coordinates.
 
-## 1. Seller Analytics
-Here we demonstrated applications of Data Ananlytics on the aspect of sellers on E-commerce data. The first one is extracting of a Single Customer View from multi-dimensional data. The second one is a Seller Segmentation using a Machine Learning Model.
+## 1. Seller Analysis
+The first analysis is extraction of a Single Seller View from a multi-dimensional datasets. The second analysis is a Seller Segmentation Analysis using a Machine Learning Model.
 <br>
 Following datas were used for this Seller Analytics analysis: 
 1. `olist_orders_dataset`
 2. `olist_order_items_dataset`
 3. `olist_products_dataset`
 
-### 1.1 Single Customer View
-A single customer view is multi-dimensional data of sellers boiled down to a single record for ease of sorting or filtering in different aspects. Multiple features which reflect behaviour and value of different sellers are extracted so these could be further used to customise user experience or make informed marketing decisions.
+### 1.1 Single Seller View
+A single seller view is multi-dimensional data of sellers drill down to a single record for ease of sorting or filtering in different aspects. Multiple features which reflect behaviour and value of different sellers are extracted so these could be further used to customise user experience or make informed marketing decisions.
 <br><br>
-The following table is a sample of a single customer view extracted from the sample dataset.
+The following table is a sample of a single seller view extracted from the sample dataset.
 <br>
 Here are the explanation of each feature:
-- `recency` : When was the last time that a customer active?
+- `recency` : When was the last time that a seller active?
 - `total_order` : How many orders does a seller receive in total?
 - `age` : How long has a customer been on the platform since its first sale made?
 - `frequency` : How frequently orders are made in a given unit of time (our unit here is orders per month)?
@@ -167,7 +167,7 @@ Each of the feature could be further summarised for an overview look of sellers 
 <br>
 
 ### 1.2 Seller Segmentation
-A seller segmentation could be automatically computed using a Unsupervised Machine Learning Model based on the Single Customer View. Segments of similar sellers are extracted so that customised actions and plans could be crafted for each segment to maximise the business outcome.
+A seller segmentation could be automatically computed using a Unsupervised Machine Learning Model based on the Single Seller View. Segments of similar sellers are extracted so that customised actions and plans could be crafted for each segment to maximise the business outcome.
 <br><br>
 Here are a sample seller segmentation performed on the dataset. Four segments of seller were derived. Each of them are different in serveral aspects and posesses different business values. For example, a marketing campaign to attract more traffic to the platform would probably focus on sellers in the segment with highest monetary value. On the other hand, a marketing campaign for promoting growth of potential sellers would probably focus on sellers in the segment of new sellers who already made some impressive sales.
 
@@ -198,8 +198,8 @@ To visualize different features of each seller segment, bubble plots between an 
 
 ![](img/segmentation_3.png)
 
-## 2. Returning Customers Analytics
-Another important aspect of customers analytics is to understand and differentiate between one-time customers and returning customers. Questions like How many customers are one-time or returning type?, Does the returning customers tend to spend more?, What makes returning customers return to the platform?, or How does the retention change over time on a platform? are all important questions to ask to gain insight on How could a platform retain more of its customers?
+## 2. Customers Analysis
+An important aspect of customer analytics is to understand and differentiate between one-time customers and returning customers. Questions like How many customers are one-time or returning type?, Does the returning customers tend to spend more?, What makes returning customers return to the platform?, or How does the retention change over time on a platform? are all important questions to ask to gain insight on how could a platform retain more of its customers?
 
 ### 2.1 Overview look of one-time vs returning customers
 Only 3% of 96K unique customers is returning on the platform.
@@ -213,25 +213,24 @@ The two groups are not different on the aspect of spending. The median of purcha
 ![](img/price_distribution.png)
 
 ### 2.2 What makes customers return to the platform?
-It worths discovering which product categories are preferred by returning customers compared to one-time customers. Here, it was observed that returning customers tend to buy more of the following product categories: `bed_bath_table`, `fashion_bags_accesories`, `furniture_decors`, `home_appliances`, and `sports_lerisure`
+It is worth to discover which product categories are preferred by returning customers compared to one-time customers. Here, it can be observed that returning customers tend to buy more of the following product categories: `bed_bath_table`, `fashion_bags_accesories`, `furniture_decors`, `home_appliances`, and `sports_lerisure`
 
 ![](img/category_distribution.png)
 
-Even though there is no difference in payment method preference of the two groups, returning customers tend to pay with slightly longer installment.
+Even though there is a similar pattern in payment method preference of the two groups, returning customers tend to pay with slightly longer installment.
 
 ![](img/payment_method.png)
 
 ![](img/payment_installment.png)
 
 ### 2.3 Customers Retention Over Time
-Next, we'll be looking at how customers in each cohort group retain on the platform. It became clear that all of the cohort groups have retention rate no more than 1% and it was more likely to retain 1% of customer during the next month of first puchase month.
+Next, we'll be looking at how customers in each cohort group retain on the platform. It becomes clear that all of the cohort groups have retention rate no more than 1% and that the company is more likely to retain 1% of the first-time customer to continue shopping at its platform over the next month.
 
 ![](img/cohort.png)
 
 ## 3. Geo-Location Analytics
-`olist_geolocation_dataset` can be used to discover and understand the data from the location perspective, in this case, using the location of the customers. This section use dataset purely from the geo-location to plot the distribution of zip codes across the country, states, and cities level.
+`olist_geolocation_dataset` can be used to discover and understand the data from the location perspective, in this case, using the location of the customers. This dataset can help plotting the distribution of zip codes across the country, state, and city level.
 
-Analysis of geo-location by zip codes from country to city level throughout Brazil.
 {% include zip_code_location.html %}
 {% include zip_code_state_SP.html %}
 {% include zip_code_city_saopaulo.html %}
@@ -239,7 +238,7 @@ Analysis of geo-location by zip codes from country to city level throughout Braz
 <br>
 
 ### 3.1 Other analyses by zip codes
-Geo-location dataset can be merged with other types of datasets, such as `olist_order_customer_dataset`, `olist_orders_dataset`, and `olist_order_items_dataset`; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can 1) discover the revenue of the order, 2) calculate aggregated freight value per area, 3) explore average delivery time, and so on in zip code level.
+The other datasets such as `olist_order_customer_dataset`, `olist_orders_dataset`, and `olist_order_items_dataset` can be merged with the geo-location data; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can 1) discover the revenue of the order, 2) calculate aggregated freight value per area, 3) explore average delivery time, and so on in a granulate zip code level.
 
 <br>
 
@@ -265,23 +264,22 @@ Belo horizonte | 3144
 
 <br>
 
-### 3.3 What product should be recommend in different region? (normalised to the number of customer)
-By including `olist_products_dataset` dataset in the existing geo-location analytics, we can explore what product is more preferred in regional level.
-It is clear that although big cities like Sao Paolo and Rio have more order than the other regions, preference of product for customer (in states level) can be varied and may not conform the high-demand.
+### 3.3 What product should be recommend (is more popular) in different region? (normalised to the number of customer)
+By including `olist_products_dataset` dataset, we can explore what product is more preferred in different region.
+It is clear that although big cities like Sao Paolo and Rio have more order than the other areas, preference of the product for customer can be varied and may not conform the high-demand or the high number of population living in that region.
 
 {% include product_ratio_state.html %}
 
 
 ## 4. Review Analysis
-We could also extract insightful information from text data using the customer reviews data from `olist_order_reviews_dataset`. In the following table, reviews interm of rating and comment corresponding to orders are given.
+We could also extract insightful information from text data using the customer reviews data from `olist_order_reviews_dataset`. Within the dataset, reviews in form of rating and comment corresponding to orders are given.
 <br>
-First, we analyzed the overall proportion of the review rating. Here, we selected 41,753 reviews with non-empty review comments out of 100,000 all reviews for the analysis. We observed that around half of the reviews got the excellent rating score of 5. On the other hand, the bad rating score of less than or equal to 2 accounts for around 25% of all reviews.
+We are able to analyze the overall proportion of the review rating. Here, out of 100,000 all reviews, about 41.57% are the reviews with comments. We observe that around half of those reviews receive rating score of 5 or excellent. On the other hand, the bad rating score of less than or equal to 2 accounts for around 25%.
 
 ![](img/review_bar.png)
 
 <br>
-Next, we analyzed the tone of language used for different review rating scores. We used word cloud as our tool of analysis here where frequently appearing words are represented by larger fonts in the cloud.
-By visualizing the tone of language in customer review comments could lead to insight about what customers like or do not like about particular services or products.
+We also can analyze the tone of language used for different review rating scores. We used word cloud as our tool of analysis here where frequently appearing words are represented by larger fonts in the cloud. By visualizing the language tone in customer review comments can lead to insight about what customers like or do not like over particular services or products.
 <br>
 Word cloud of review rating of 1.
 

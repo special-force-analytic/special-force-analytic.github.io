@@ -26,7 +26,7 @@ itemise:
 -->
 
 ## Who we are?
-Founded in September 2020, **Special-Force-AI** is a one stop technology consulting company seeking to provide a digital transformation and solution through the power of data and AI technology such as Data Analytics and Machine Learning. We help enterprises accelerate their business capability by elevating the value from data, solving the complex chanllenges and delivering new business solution to achieve real business benefits.
+Founded in September 2020, **Special-Force-AI** is a one stop technology consulting company seeking to provide a Custom Data Analytics Platform Development, Digital Transformation and Solution through the power of data and AI technology, such as Data Analytics and Machine Learning. We help enterprises accelerate their business capability by elevating the value from data, solving the complex chanllenges and delivering new business solution to achieve real business benefits.
 
 ## Our Vision?
 To put the business a step further with data and AI

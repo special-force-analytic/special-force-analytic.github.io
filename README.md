@@ -6,7 +6,7 @@ We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com
 ![](https://i.imgur.com/HRhd2Y0.png)
 
 ## Wrap-up Diagram
-Figure of wrap-up diagram
+![](img/CDAPD.png)
 
 ## What can we offer?
 * Offline Analytics

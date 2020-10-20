@@ -21,8 +21,6 @@ We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com
   * Review Analysis
 * Online Analytics
 
-<br>
-
 ---
 
 <br>

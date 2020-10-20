@@ -15,7 +15,7 @@ We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com
 * **Special-Force-AI** expertise covers Data Structure, Data Mining and Processing, EDA, Machine Learning, NLP, and Data Visualization
 
 ---
-
+<br>
 * Offline Analytics
   * Basic EDA Analysis
   * Machine Learning (optional)

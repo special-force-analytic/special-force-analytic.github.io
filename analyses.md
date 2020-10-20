@@ -306,7 +306,9 @@ Word cloud of review rating of 5.
 <br>
 
 ## Executive Summary
-* **Special-Force-AI** can help you discovering a proper solution to directly solve the issue or pain-point of your company rapidly
-* **Special-Force-AI** is capable of analysing many data types (unstructure to structure) and from individual to company perspectives
-* **Special-Force-AI** not only focus on applying advance analytic tools and techniques, but also able to deliver an optimised meaningful outcome based on your specific requirements
-* **Special-Force-AI** expertise covers Data Structure, Data Mining and Processing, EDA, Machine Learning, NLP, and Data Visualization
+* Single Seller View can be used to customise user experience or make informed marketing decisions.
+* Seller Segmentation can be used to better target specific group of seller to match your desired marketing campaign.
+* Analysis of one-time customers and returning customers is very important. Even though there is a similar pattern in payment method preference of the two groups, returning customers tend to pay with slightly longer installment.
+* People who live in the urban area tends to receive the product faster than those who live in the outskirt.
+* Preference of the product for customer can be varied and may not conform the high-demand or the high number of population living in that region.
+* Comments and ratings are useful to explore the products' feedback and can also be used to support other analyses or target only a particular group of customers.

@@ -10,12 +10,12 @@ Figure of wrap-up diagram
 
 ## What can we offer?
 * Offline Analytics
- ** Basic EDA Analysis
- ** Advanced Machine Learning
- ** Seller Analysis
-  *** Segmentation
- ** Customer Analysis
-  *** Returning Customer and Customer retention Analysis
- ** Geo Analysis
- ** Review Analysis
+ * Basic EDA Analysis
+ * Advanced Machine Learning
+ * Seller Analysis
+  * Segmentation
+ * Customer Analysis
+  * Returning Customer and Customer retention Analysis
+ * Geo Analysis
+ * Review Analysis
 * Online Analytics

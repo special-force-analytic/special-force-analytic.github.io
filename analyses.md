@@ -24,7 +24,7 @@ Datasets information
 ## 1. Seller Analysis
 The first analysis is extraction of a Single Seller View from a multi-dimensional datasets. The second analysis is a Seller Segmentation Analysis using a Machine Learning Model.
 <br>
-Following datas were used for this Seller Analytics analysis: 
+Following datas were used for this Seller Analysis: 
 1. `olist_orders_dataset`
 2. `olist_order_items_dataset`
 3. `olist_products_dataset`
@@ -273,6 +273,7 @@ It is clear that although big cities like Sao Paolo and Rio have more order than
 
 ## 4. Review Analysis
 We could also extract insightful information from text data using the customer reviews data from `olist_order_reviews_dataset`. Within the dataset, reviews in form of rating and comment corresponding to orders are given.
+
 <br>
 We are able to analyze the overall proportion of the review rating. Here, out of 100,000 all reviews, about 41.57% are the reviews with comments. We observe that around half of those reviews receive rating score of 5 or excellent. On the other hand, the bad rating score of less than or equal to 2 accounts for around 25%.
 
@@ -281,6 +282,7 @@ We are able to analyze the overall proportion of the review rating. Here, out of
 <br>
 We also can analyze the tone of language used for different review rating scores. We used word cloud as our tool of analysis here where frequently appearing words are represented by larger fonts in the cloud. By visualizing the language tone in customer review comments can lead to insight about what customers like or do not like over particular services or products.
 <br>
+
 Word cloud of review rating of 1.
 
 ![](img/review_1.png)
@@ -300,3 +302,11 @@ Word cloud of review rating of 4.
 Word cloud of review rating of 5.
 
 ![](img/review_5.png)
+
+<br>
+
+## Executive Summary
+* **Special-Force-AI** can help you discovering a proper solution to directly solve the issue or pain-point of your company rapidly
+* **Special-Force-AI** is capable of analysing many data types (unstructure to structure) and from individual to company perspectives
+* **Special-Force-AI** not only focus on applying advance analytic tools and techniques, but also able to deliver an optimised meaningful outcome based on your specific requirements
+* **Special-Force-AI** expertise covers Data Structure, Data Mining and Processing, EDA, Machine Learning, NLP, and Data Visualization

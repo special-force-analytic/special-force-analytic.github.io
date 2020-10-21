@@ -21,6 +21,55 @@ Datasets information
 * `olist_sellers_dataset` : This dataset includes data about the sellers that fulfilled orders made at the company and its location and to identify which seller fulfilled each product.
 * `olist_geolocation_dataset` : This dataset has information Brazilian zip codes and its lat/lng coordinates.
 
+## 0. Exploratory Data Analysis
+The preliminary step before conducting any focused analysis on specific aspects of the dataset is to do the overview analysis on the whole dataset. The Exploratory Data Analysis helps data analyst to familiarize with the dataset, inspect the data hygiene, detect any potential problems with the data, and gain useful insight for ideation of further analysis. 
+<br>
+Followings are our data visualization that gives an overview look of the `Brazilian ecommerce public dataset of orders` dataset.
+<br>
+Order by date
+
+![](img/eda/order_by_date.png)
+
+Product price distribution
+
+![](img/eda/item_price_dist.png)
+
+Frieght price distribution
+
+![](img/eda/frieght_dist.png)
+
+Order value distribution
+
+![](img/eda/order_value_dist.png)
+
+Basket size
+
+![](img/eda/basket_size_count.png)
+
+Order status
+
+![](img/eda/order_status_count.png)
+
+Delivery delay
+
+![](img/eda/delivery_delay_dist.png)
+
+Seller received orders
+
+![](img/eda/seller_order_dist.png)
+
+Product categories
+
+![](img/eda/product_cat.png)
+
+Product review score
+
+![](img/eda/review_count.png)
+
+Product review by category
+
+![](img/eda/review_box.png)
+
 ## 1. Seller Analysis
 The first analysis is extraction of a Single Seller View from a multi-dimensional datasets. The second analysis is a Seller Segmentation Analysis using a Machine Learning Model.
 <br>
@@ -60,7 +109,7 @@ Each of the feature could be further summarised for an overview look of sellers 
 
 **Recency**
 <br>
-![](img/recency.png)
+![](img/seller/ecency.png)
 <br>
 
 |       |   recency |
@@ -78,7 +127,7 @@ Each of the feature could be further summarised for an overview look of sellers 
 
 **Total orders**
 <br>
-![](img/total_orders.png)
+![](img/seller/total_orders.png)
 <br>
 
 |       |   total_order |
@@ -96,7 +145,7 @@ Each of the feature could be further summarised for an overview look of sellers 
 
 **Days between orders**
 <br>
-![](img/days_between_orders.png)
+![](img/seller/days_between_orders.png)
 <br>
 
 |       |   days_btw_order |
@@ -114,7 +163,7 @@ Each of the feature could be further summarised for an overview look of sellers 
 
 **Average monetary**
 <br>
-![](img/monetary_avg.png)
+![](img/seller/monetary_avg.png)
 <br>
 
 |       |   monetary_avg |
@@ -132,7 +181,7 @@ Each of the feature could be further summarised for an overview look of sellers 
 
 **Total monetary**
 <br>
-![](img/monetary_total.png)
+![](img/seller/monetary_total.png)
 <br>
 
 |       |   monetary_sum |
@@ -150,7 +199,7 @@ Each of the feature could be further summarised for an overview look of sellers 
 
 **Average quantity**
 <br>
-![](img/quantity_avg.png)
+![](img/seller/quantity_avg.png)
 <br>
 
 |       |   quantity_avg |
@@ -188,15 +237,15 @@ Here is a table for summarising differnt features of each seller segment.
 
 To visualize different features of each seller segment, bubble plots between an average value of Total monetary and other features were presented below where a bubble size represents a size of population.
 
-![](img/segmentation_2.png)
+![](img/seller/segmentation_2.png)
 
-![](img/segmentation_6.png)
+![](img/seller/segmentation_6.png)
 
-![](img/segmentation_1.png)
+![](img/seller/segmentation_1.png)
 
-![](img/segmentation_5.png)
+![](img/seller/segmentation_5.png)
 
-![](img/segmentation_3.png)
+![](img/seller/segmentation_3.png)
 
 ## 2. Customers Analysis
 An important aspect of customer analytics is to understand and differentiate between one-time customers and returning customers. Questions like How many customers are one-time or returning type?, Does the returning customers tend to spend more?, What makes returning customers return to the platform?, or How does the retention change over time on a platform? are all important questions to ask to gain insight on how could a platform retain more of its customers?
@@ -204,29 +253,29 @@ An important aspect of customer analytics is to understand and differentiate bet
 ### 2.1 Overview look of one-time vs returning customers
 Only 3% of 96K unique customers is returning on the platform.
 
-![](img/returning_customer2.png)
+![](img/customer/returning_customer2.png)
 
-![](img/returning_customer.png)
+![](img/customer/returning_customer.png)
 
 The two groups are not different on the aspect of spending. The median of purchased product prices are X and Y for one-time and returning customers, respectively.
 
-![](img/price_distribution.png)
+![](img/customer/price_distribution.png)
 
 ### 2.2 What makes customers return to the platform?
 It is worth to discover which product categories are preferred by returning customers compared to one-time customers. Here, it can be observed that returning customers tend to buy more of the following product categories: `bed_bath_table`, `fashion_bags_accesories`, `furniture_decors`, `home_appliances`, and `sports_lerisure`
 
-![](img/category_distribution.png)
+![](img/customer/category_distribution.png)
 
 Even though there is a similar pattern in payment method preference of the two groups, returning customers tend to pay with slightly longer installment.
 
-![](img/payment_method.png)
+![](img/customer/payment_method.png)
 
-![](img/payment_installment.png)
+![](img/customer/payment_installment.png)
 
 ### 2.3 Customers Retention Over Time
 Next, we'll be looking at how customers in each cohort group retain on the platform. It becomes clear that all of the cohort groups have retention rate no more than 1% and that the company is more likely to retain 1% of the first-time customer to continue shopping at its platform over the next month.
 
-![](img/cohort.png)
+![](img/customer/cohort.png)
 
 ## 3. Geo-Location Analytics
 `olist_geolocation_dataset` can be used to discover and understand the data from the location perspective, in this case, using the location of the customers. This dataset can help plotting the distribution of zip codes across the country, state, and city level.
@@ -277,7 +326,7 @@ We could also extract insightful information from text data using the customer r
 <br>
 We are able to analyze the overall proportion of the review rating. Here, out of 100,000 all reviews, about 41.57% are the reviews with comments. We observe that around half of those reviews receive rating score of 5 or excellent. On the other hand, the bad rating score of less than or equal to 2 accounts for around 25%.
 
-![](img/review_bar.png)
+![](img/review/review_bar.png)
 
 <br>
 We also can analyze the tone of language used for different review rating scores. We used word cloud as our tool of analysis here where frequently appearing words are represented by larger fonts in the cloud. By visualizing the language tone in customer review comments can lead to insight about what customers like or do not like over particular services or products.
@@ -285,23 +334,23 @@ We also can analyze the tone of language used for different review rating scores
 
 Word cloud of review rating of 1.
 
-![](img/review_1.png)
+![](img/review/review_1.png)
 
 Word cloud of review rating of 2.
 
-![](img/review_2.png)
+![](img/review/review_2.png)
 
 Word cloud of review rating of 3.
 
-![](img/review_3.png)
+![](img/review/review_3.png)
 
 Word cloud of review rating of 4.
 
-![](img/review_4.png)
+![](img/review/review_4.png)
 
 Word cloud of review rating of 5.
 
-![](img/review_5.png)
+![](img/review/review_5.png)
 
 <br>
 

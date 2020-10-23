@@ -1,4 +1,4 @@
-# Showcase of Custom Data Analytics Platform Development
+# Showcase of Custom Data Analytics Platform
 
 ## Wrap-up Diagram
 ![](img/CDAPD.png)

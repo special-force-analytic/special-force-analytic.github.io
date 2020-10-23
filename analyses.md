@@ -308,7 +308,6 @@ Belo horizonte | 3144
 {% include order_map_sao.html %}
 {% include order_map_rio.html %}
 {% include order_map_bel.html %}
-{% include order_map_bel_copy.html %}
 
 <br>
 

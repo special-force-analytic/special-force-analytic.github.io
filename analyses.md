@@ -312,14 +312,12 @@ Belo horizonte | 3144
 <br>
 
 ### 3.3 What product should be recommend (is more popular) in different region? (normalised to the number of customer)
-By including `olist_products_dataset` dataset, we can explore what product is more preferred in different region.
-It is clear that although big cities like Sao Paolo and Rio have more order than the other areas, preference of the product for customer can be varied and may not conform the high-demand or the high number of population living in that region.
+By including `olist_products_dataset` dataset, we can explore what product is more preferred in different locations. The data also involve geographical area of Brazil using [Brazilian Subnational Administrative Boundaries](https://data.humdata.org/dataset/brazil-administrative-level-0-boundaries) we can visualize the analysis in regional level. It is clear that although big cities like Sao Paolo and Rio have more order than the other areas, preference of the product for customer can be varied and may not conform the high-demand or the high number of population living in that region.
 
 {% include product_ratio_state.html %}
 
-
 ## 4. Review Analysis
-We could also extract insightful information from text data using the customer reviews data from `olist_order_reviews_dataset`. Within the dataset, reviews in form of rating and comment corresponding to orders are given.
+We could also extract insightful information from text data using the customer reviews data from `olist_order_reviews_dataset`. Customers' review is useful to explore the products' feedback and can also be used to support other analyses or target only a particular group of customers. The given dataset provides reviews in form of rating and comment corresponding to the orders.
 
 <br>
 We are able to analyze the overall proportion of the review rating. Here, out of 100,000 all reviews, about 41.57% are the reviews with comments. We observe that around half of those reviews receive rating score of 5 or excellent. On the other hand, the bad rating score of less than or equal to 2 accounts for around 25%.
@@ -353,9 +351,10 @@ Word cloud of review rating of 5.
 <br>
 
 ## Executive Summary
-* Single Seller View can be used to customise user experience or make informed marketing decisions.
-* Seller Segmentation can be used to better target specific group of seller to match your desired marketing campaign.
-* Analysis of one-time customers and returning customers is very important. Even though there is a similar pattern in payment method preference of the two groups, returning customers tend to pay with slightly longer installment.
-* People who live in the urban area tends to receive the product faster than those who live in the outskirt.
-* Preference of the product for customer can be varied and may not conform the high-demand or the high number of population living in that region.
-* Comments and ratings are useful to explore the products' feedback and can also be used to support other analyses or target only a particular group of customers.
+* EDA is a very useful way of **exploring the data**.
+* Single Seller View can be used to **customise user experience or make informed marketing decisions**.
+* Seller Segmentation can be used to **better target specific group** of seller to match your desired marketing campaign.
+* Analysis of one-time customers and returning customers is very important. Even though there is a **similar pattern in payment method** preference of the two groups, **returning customers tend to pay with slightly longer installment**.
+* **Urban area customers tends to receive the product faster than those who live in the outskirt**.
+* **Preference of the product can be varied and may not conform the high-demand** or the high number of population living in that region.
+* Customers **mostly mention the word 'product'** and majority have **positive feedback for the product from all categories except the security and services**.

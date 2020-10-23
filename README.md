@@ -1,12 +1,10 @@
-# Showcase of Data Analytics in E-commerce
-
-## Dataset Background
-We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com/olistbr/brazilian-ecommerce) made at [Olist Store](https://olist.com/) as our sample dataset to showcase applications of Data Analytics in E-commerce. The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews. The data schema of this dataset is as follows:
-
-![](https://i.imgur.com/HRhd2Y0.png)
+# Showcase of Custom Data Analytics Platform Development
 
 ## Wrap-up Diagram
 ![](img/CDAPD.png)
+
+## Use Case
+* E-commerce: The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews.
 
 ## What can we offer?
 * **Special-Force-AI** can help you discovering a proper solution to directly solve the issue or pain-point of your company rapidly
@@ -27,3 +25,6 @@ We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com
   * Geo Analysis
   * Review Analysis
 * Online Analytics
+  * Google Cloud Platform (GCP)
+  * Amazon Web Service (AWS)
+  * Application Programming Interface (API)

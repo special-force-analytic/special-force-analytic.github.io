@@ -4,7 +4,9 @@ title: About Us
 permalink: /about/
 ---
 
-![](img/profile/profile_mo.jpg)
+{% imagesize /assets/logo.jpg:img alt='my alt string' %}
+  # <img src='img/profile/profile_mo.jpg' width='100' height='300' alt='test alt string'>
+<!--![](img/profile/profile_mo.jpg)-->
 
 ## Dr. Sarunkorn Chotvijit
 #### Co-founder of Special-Force-AI

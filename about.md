@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-# <img src='img/profile/profile_mo.jpg' width='250' height='300' alt='test alt string'>
+# <img src='img/profile/profile_mo.jpg' width='200' height='300' alt='test alt string'>
 <!--![](img/profile/profile_mo.jpg)-->
 
 ## Dr. Sarunkorn Chotvijit

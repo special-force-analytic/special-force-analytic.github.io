@@ -10,6 +10,7 @@ header_pages:
 
 plugins:
   - jekyll-titles-from-headings
+  - jekyll-image-size
 
 titles_from_headings:
   enabled:     false

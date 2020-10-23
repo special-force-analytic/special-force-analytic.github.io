@@ -4,6 +4,8 @@ title: About Us
 permalink: /about/
 ---
 
+![](img/profile/profile_mo.jpg)
+
 ## Dr. Sarunkorn Chotvijit
 #### Co-founder of Special-Force-AI
 * Former Senior Data Science Researcher

@@ -280,7 +280,7 @@ Next, we'll be looking at how customers in each cohort group retain on the platf
 ## 3. Geo-Location Analytics
 `olist_geolocation_dataset` can be used to discover and understand the data from the location perspective, in this case, using the location of the customers. This dataset can help plotting the distribution of zip codes across the country, state, and city level.
 
-{% include zip_code_location.html src="_includes/zip_code_location.html" %}
+{% include zip_code_location.html %}
 {% include zip_code_state_SP.html %}
 {% include zip_code_city_saopaulo.html %}
 
@@ -288,8 +288,6 @@ Next, we'll be looking at how customers in each cohort group retain on the platf
 
 ### 3.1 Other analyses by zip codes
 The other datasets such as `olist_order_customer_dataset`, `olist_orders_dataset`, and `olist_order_items_dataset` can be merged with the geo-location data; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can 1) discover the revenue of the order, 2) calculate aggregated freight value per area, 3) explore average delivery time, and so on in a granulate zip code level.
-
-<br>
 
 {% include zip_code_revenue.html %}
 {% include zip_code_transport_cost.html %}

@@ -1,9 +1,15 @@
 # Showcase of Custom Data Analytics Platform
 
+## Digital Transformation Process
+![](img/DT.png)
+
+## Data Analytics Platform
+![](img/DAP.png)
+
 ## Wrap-up Diagram
 ![](img/CDAPD.png)
 
-## Use Case
+## Use Cases
 * E-commerce: The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews.
 
 ## What can we offer?

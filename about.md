@@ -4,12 +4,11 @@ title: About Us
 permalink: /about/
 ---
 
-
 <img src='img/profile/profile_mo.png' width='225' height='300'>
 <!--![](img/profile/profile_mo.jpg)-->
 
 ## Dr. Sarunkorn Chotvijit
-#### Co-founder of Special-Force-AI
+#### Co-founder of DigitAIs
 * Former Senior Data Science Researcher
 * PhD in Urban Science at University of Warwick
 * MSc in Data Analytics at University of Warwick
@@ -18,7 +17,7 @@ permalink: /about/
 <br>
 
 ## Witchapong Daroontham
-#### Co-founder of Special-Force-AI
+#### Co-founder of DigitAIs
 * Senior Data Scientist at Central Group
 * MSc in Telecommunication Engineering at University College London (UCL)
 * BSc in Electronic and Communication Communication at SIIT
@@ -30,7 +29,7 @@ itemise:
 -->
 
 ## Who we are?
-Founded in September 2020, **Special-Force-AI** is a one-stop technology consulting company seeking to provide a Custom Data Analytics Platform Development, Digital Transformation and Solution through the power of data and AI technology, such as Data Analytics and Machine Learning. Our goal is to help enterprises accelerate their business capability by elevating the value from data, solving the complex chanllenges and delivering new business solution to achieve real business benefits.
+Founded in September 2020, **DigitAIs** is a one-stop technology consulting company seeking to provide a Custom Data Analytics Platform Development, Digital Transformation and Solution through the power of data and AI technology, such as Data Analytics and Machine Learning. Our goal is to help enterprises accelerate their business capability by elevating the value from data, solving the complex chanllenges and delivering new business solution to achieve real business benefits.
 
 ## Our Vision?
 To enhance your business potential with data and AI

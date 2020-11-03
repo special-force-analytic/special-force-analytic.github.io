@@ -1,8 +1,5 @@
 # Showcase of Custom Data Analytics Platform
 
-## Digital Transformation Process
-![](img/DT.png)
-
 ## Data Analytics Platform
 ![](img/DAP.png)
 

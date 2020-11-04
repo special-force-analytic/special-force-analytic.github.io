@@ -25,9 +25,9 @@
     * Seller Segmentation
   * Customer Analysis
     * Returning Customer and Customer Retention Analysis
+  * Time-Series Analysis
   * Geo Analysis
   * Review Analysis
 * Online Analytics
   * Google Cloud Platform (GCP)
-  * Amazon Web Service (AWS)
   * Application Programming Interface (API)

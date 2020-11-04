@@ -1,9 +1,9 @@
-# Showcase of Custom Data Analytics Platform
+# Showcase of DigitAIs
 
 ## Data Analytics Platform
 ![](img/DAP.png)
 
-## Wrap-up Diagram
+## Custom Data Analytics Platform
 ![](img/CDAPD.png)
 
 ## What can we offer?

@@ -4,8 +4,9 @@ title: About Us
 permalink: /about/
 ---
 
-<img src='img/profile/profile_mo.png' width='225' height='300'>
+<img src='/img/profile/profile_mo.png' width='225' height='300'>
 <!-- ![](img/profile/profile_mo.png) -->
+<!-- ![](img/profile/profile_mo.png){:height="700px" width="400px"} -->
 
 ## Dr. Sarunkorn Chotvijit
 #### Co-founder of DigitAIs

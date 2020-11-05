@@ -278,14 +278,15 @@ Next, we'll be looking at how customers in each cohort group retain on the platf
 ![](img/customer/cohort.png)
 
 ## 3. Time-Series Analysis
-<img src='/img/time_series/order_daily.png' width="1200" height='400'>
+<img src='/img/time_series/order_daily.png' width="1500" height='400'>
 <br>
-<img src='/img/time_series/order_weekly.png' width="1200" height='400'>
+<img src='/img/time_series/order_weekly.png' width="1500" height='400'>
 <br>
-<img src='/img/time_series/order_monthly.png' width="1200" height='400'>
+<img src='/img/time_series/order_monthly.png' width="1500" height='400'>
 <br>
 <img src='/img/time_series/order_weekly_predict.png' width="700" height='400'>
 <br>
+
 ![](img/time_series/order_weekly_trends.png)
 
 ## 4. Geo-Location Analytics

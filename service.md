@@ -18,10 +18,10 @@ DigitAIs support is fully open to the client's preference and flexible based on 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSUMOm-Edbtx4lr82SmZ8LenvPsdBudDW0Z7658mKNtNBIRQW7kSrPbzcIKnIl8eWdSWebNzQTMc524/pub?w=1152&h=681">
 
 A Data Platform is a centralised system that allow data storage and management both internally and externally for a company. It is a basic infrastructure that any companies considering a digital transformation should have in place. Some benefits of a data platform are as follows:
-- Time & Cost Efficiency: Data transfering amongs deparments on a data platform means reduction of time in manually sending and receiving files or documents.
-- Data Consistency: A centralised data storage helps preventing inconsistencies of data as data is no longer distributed across different files.
-- Transparency: Shifting data operation on a data platform allows every operations on a platform to be logged and monitored by a platform owner.
-- Data Analytic: As your data platform is ready, your data would be further analysed for optimising your business or making any informed decisions.
+* Time & Cost Efficiency: Data transfering amongs deparments on a data platform means reduction of time in manually sending and receiving files or documents.
+* Data Consistency: A centralised data storage helps preventing inconsistencies of data as data is no longer distributed across different files.
+* Transparency: Shifting data operation on a data platform allows every operations on a platform to be logged and monitored by a platform owner.
+* Data Analytic: As your data platform is ready, your data would be further analysed for optimising your business or making any informed decisions.
 
 To develop your custom data platform, we first need to gather and transform all your required datas in an agreed and stadardised data format. Then, the transformed data would be ingested into a Database or a File Storage System. To manage the data internally, a Data Management Application to perform basic operations (create/read/update/delete) on a Database or a File Storage System would be developped. In case when you need some of your data to be publicised, a public API could be developped to control data access from client applications i.e. web applications, mobile applications, or messengers.
 

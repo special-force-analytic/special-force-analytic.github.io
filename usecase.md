@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Analyses
-permalink: /analyses/
+title: Use Case
+permalink: /usecase/
 ---
 
 This is the Analyses page where all analysis contents are being placed and referred. We demonstrate applications of Data Ananlytics on the aspect of sellers, customers, geolocation, and review analyses of the E-commerce data.

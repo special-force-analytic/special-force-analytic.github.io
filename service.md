@@ -4,7 +4,7 @@ title: Our Service
 permalink: /service/
 ---
 
-DigitAIs offers two stages of services, in which we are open to the client's preference to receive either a single stage or both stages. This is dependent on the specific requirements:
+DigitAIs support is fully open to the client's preference and flexible based on each clients' specific requirements. At the moment, we offers two stages of services:
 * Stage I: Digital Transformation & Data Platform Development
 * Stage II: Data Analytics Platform Development
 
@@ -34,23 +34,22 @@ Here is our demo of a simple data platform with the following [Data Mangement Ap
 
 ![](img/CDAPD.png)
 
-* Offline Analytics
-  * Basic EDA Analysis
-  * Machine Learning (optional)
-  * Seller Analysis
-    * Single Seller View
-    * Seller Segmentation
-  * Customer Analysis
-    * Returning Customer and Customer Retention Analysis
-  * Time-Series Analysis
-  * Geo Analysis
-  * Review Analysis
-* Online Analytics
-  * Google Cloud Platform (GCP)
-  * Application Programming Interface (API)
-
 ---
 
 ### Use Cases
-* E-commerce: The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews.
+* [E-commerce](https://special-force-analytic.github.io/usecase/): The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews.
+  * Offline Analytics
+    * Basic EDA Analysis
+    * Machine Learning (optional)
+    * Seller Analysis
+      * Single Seller View
+      * Seller Segmentation
+    * Customer Analysis
+      * Returning Customer and Customer Retention Analysis
+    * Time-Series Analysis
+    * Geo Analysis
+    * Review Analysis
+  * Online Analytics
+    * Google Cloud Platform (GCP)
+    * Application Programming Interface (API)
 * Banking: TBA

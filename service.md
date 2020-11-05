@@ -4,12 +4,16 @@ title: Our Service
 permalink: /service/
 ---
 
-# Stage 1
+DigitAIs offers two stages of services, in which we are open to the client's preference to receive either a single stage or both stages. This is dependent on the specific requirements:
+* Stage I: Digital Transformation & Data Platform Development
+* Stage II: Data Analytics Platform Development
 
-## Digital Transformation Process
+## Stage I
+
+### Digital Transformation Process
 ![](img/DT.png)
 
-## Data Platform Development
+### Data Platform Development
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSUMOm-Edbtx4lr82SmZ8LenvPsdBudDW0Z7658mKNtNBIRQW7kSrPbzcIKnIl8eWdSWebNzQTMc524/pub?w=1152&h=681">
 
@@ -23,9 +27,9 @@ To develop your custom data platform, we first need to gather and transform all 
 
 Here is our demo of a simple data platform with the following [Data Mangement Application](https://product-fastapi-demo.herokuapp.com/product_view) and [Client Application](https://fir-api-client-web.firebaseapp.com/).
 
-# Stage 2
+## Stage II
 
-## Data Analytics Platform
+### Data Analytics Platform Development
 <img src='/img/DAP.png' width='500' height='250'>
 
 ![](img/CDAPD.png)
@@ -47,5 +51,6 @@ Here is our demo of a simple data platform with the following [Data Mangement Ap
 
 ---
 
-## Use Cases
+### Use Cases
 * E-commerce: The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews.
+* Banking: TBA

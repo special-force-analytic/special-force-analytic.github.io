@@ -109,7 +109,7 @@ Each of the feature could be further summarised for an overview look of sellers 
 
 **Recency**
 <br>
-![](img/seller/ecency.png)
+![](img/seller/recency.png)
 <br>
 
 |       |   recency |

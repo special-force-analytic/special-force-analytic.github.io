@@ -23,6 +23,7 @@ To enhance your business potential with data and AI
 
 ### Dr. Sarunkorn Chotvijit
 #### Co-founder of DigitAIs
+<a href="mailto:sarunkorn.cho@gmail.com">sarunkorn.cho@gmail.com</a>
 * Former Senior Data Science Researcher
 * PhD in Urban Science at University of Warwick
 * MSc in Data Analytics at University of Warwick
@@ -34,6 +35,7 @@ To enhance your business potential with data and AI
 
 ### Witchapong Daroontham
 #### Co-founder of DigitAIs
+<a href="mailto:wdaroontham@gmail.com">wdaroontham@gmail.com</a>
 * Senior Data Scientist at Central Group
 * MSc in Telecommunication Engineering at University College London (UCL)
 * BSc in Electronic and Communication Communication at SIIT

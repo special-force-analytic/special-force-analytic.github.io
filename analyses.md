@@ -7,11 +7,11 @@ permalink: /analyses/
 This is the Analyses page where all analysis contents are being placed and referred. We demonstrate applications of Data Ananlytics on the aspect of sellers, customers, geolocation, and review analyses of the E-commerce data.
 
 ## Dataset Background
-We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com/olistbr/brazilian-ecommerce) made at [Olist Store](https://olist.com/) as our sample dataset to showcase applications of Data Analytics in E-commerce. The dataset is a sample real commercial data from the e-commerce company. All the confidential and sensitive information have been anonymised to protect privacy and rights of all stakeholers' information. It contains roughly 100k orders covering from 2016 to 2018 happen at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews. The data schema of this dataset is as follows:
+We chose a [Brazilian ecommerce public dataset of orders](https://www.kaggle.com/olistbr/brazilian-ecommerce) made at [Olist Store](https://olist.com/) as our sample dataset to showcase applications of Data Analytics in E-commerce. The dataset is a sample real commercial data from the e-commerce company. All the confidential and sensitive information have been anonymised to protect privacy and rights of all stakeholers' information. It contains roughly 100k orders covering from 2016 to 2018 happen at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, geo-location, and reviews. The data schema and information of this dataset is as follows:
 
 ![](https://i.imgur.com/HRhd2Y0.png)
 
-Datasets information
+Dataset information
 * `olist_orders_dataset` : This is the core dataset. From each order you might find all other information.
 * `olist_order_customer_dataset` : This dataset has information about the customer and their location.
 * `olist_order_items_dataset` : This dataset includes data about the items purchased within each order.
@@ -23,9 +23,9 @@ Datasets information
 
 ## 0. Exploratory Data Analysis
 The preliminary step before conducting any focused analysis on specific aspects of the dataset is to do the overview analysis on the whole dataset. The Exploratory Data Analysis helps data analyst to familiarize with the dataset, inspect the data hygiene, detect any potential problems with the data, and gain useful insight for ideation of further analysis. 
-<br>
+<br><br>
 Followings are our data visualization that gives an overview look of the `Brazilian ecommerce public dataset of orders` dataset.
-<br>
+<br><br>
 Order by date
 
 ![](img/eda/order_by_date.png)
@@ -71,9 +71,7 @@ Product review by category
 ![](img/eda/review_box.png)
 
 ## 1. Seller Analysis
-The first analysis is extraction of a Single Seller View from a multi-dimensional datasets. The second analysis is a Seller Segmentation Analysis using a Machine Learning Model.
-<br>
-Following datas were used for this Seller Analysis: 
+The first analysis is extraction of a Single Seller View from a multi-dimensional datasets. The second analysis is a Seller Segmentation Analysis using a Machine Learning Model. Following datas were used for this Seller Analysis: 
 1. `olist_orders_dataset`
 2. `olist_order_items_dataset`
 3. `olist_products_dataset`
@@ -82,7 +80,7 @@ Following datas were used for this Seller Analysis:
 A single seller view is multi-dimensional data of sellers drill down to a single record for ease of sorting or filtering in different aspects. Multiple features which reflect behaviour and value of different sellers are extracted so these could be further used to customise user experience or make informed marketing decisions.
 <br><br>
 The following table is a sample of a single seller view extracted from the sample dataset.
-<br>
+<br><br>
 Here are the explanation of each feature:
 - `recency` : When was the last time that a seller active?
 - `total_order` : How many orders does a seller receive in total?
@@ -278,15 +276,18 @@ Next, we'll be looking at how customers in each cohort group retain on the platf
 ![](img/customer/cohort.png)
 
 ## 3. Time-Series Analysis
+Using `customer_purchase_time` in the `olist_orders_dataset`. We can plot the number of order per day, week, or month to illustrate the demand of the customer purchase over time.
+
 <img src='/img/time_series/order_daily.png' width="800" height='300'>
 <br>
 <img src='/img/time_series/order_weekly.png' width="800" height='300'>
 <br>
 <img src='/img/time_series/order_monthly.png' width="800" height='300'>
-<br>
+
+The purchase date can also be utilize to predict the future up-coming purchase trends over the next month, quarter, or year using the historic data. This can help your company to forecast the (next-month) supply and can be used to support capital planning scheme such as cost saving plan, austerity and stock management.
+
 <img src='/img/time_series/order_weekly_predict.png' width="700" height='400'>
 <br>
-
 ![](img/time_series/order_weekly_trends.png)
 
 ## 4. Geo-Location Analytics
@@ -305,23 +306,16 @@ The other datasets such as `olist_order_customer_dataset`, `olist_orders_dataset
 {% include zip_code_transport_cost.html %}
 {% include zip_code_delivery_time.html %}
 
-<br>
-
 ### 4.2 Which region has the most order?
-
 City | Number of orders
 --- | --- 
 Sao paulo | 17808
 Rio de janeiro | 7837
 Belo horizonte | 3144
 
-<br>
-
 {% include order_map_sao.html %}
 {% include order_map_rio.html %}
 {% include order_map_bel.html %}
-
-<br>
 
 ### 4.3 What product should be recommend (is more popular) in different region? (normalised to the number of customer)
 By including `olist_products_dataset` dataset, we can explore what product is more preferred in different locations. The data also involve geographical area of Brazil using [Brazilian Subnational Administrative Boundaries](https://data.humdata.org/dataset/brazil-administrative-level-0-boundaries) we can visualize the analysis in regional level. It is clear that although big cities like Sao Paolo and Rio have more order than the other areas, preference of the product for customer can be varied and may not conform the high-demand or the high number of population living in that region.
@@ -330,16 +324,13 @@ By including `olist_products_dataset` dataset, we can explore what product is mo
 
 ## 5. Review Analysis
 We could also extract insightful information from text data using the customer reviews data from `olist_order_reviews_dataset`. Customers' review is useful to explore the products' feedback and can also be used to support other analyses or target only a particular group of customers. The given dataset provides reviews in form of rating and comment corresponding to the orders.
-
-<br>
+<br><br>
 We are able to analyze the overall proportion of the review rating. Here, out of 100,000 all reviews, about 41.57% are the reviews with comments. We observe that around half of those reviews receive rating score of 5 or excellent. On the other hand, the bad rating score of less than or equal to 2 accounts for around 25%.
 
 ![](img/review/review_bar.png)
 
-<br>
 We also can analyze the tone of language used for different review rating scores. We used word cloud as our tool of analysis here where frequently appearing words are represented by larger fonts in the cloud. By visualizing the language tone in customer review comments can lead to insight about what customers like or do not like over particular services or products.
-<br>
-
+<br><br>
 Word cloud of review rating of 1.
 
 ![](img/review/review_1.png)
@@ -359,8 +350,6 @@ Word cloud of review rating of 4.
 Word cloud of review rating of 5.
 
 ![](img/review/review_5.png)
-
-<br>
 
 ## Executive Summary
 * EDA is a very useful way of **exploring the data**.

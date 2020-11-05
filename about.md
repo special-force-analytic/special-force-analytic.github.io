@@ -15,7 +15,7 @@ Founded in September 2020, **DigitAIs** is a one-stop technology consulting comp
 * **DigitAIs** not only focus on applying advance analytic tools and techniques, but also able to deliver an optimised meaningful outcome based on your specific requirements
 * **DigitAIs** expertise covers Database Management, Data Mining and Processing, EDA, Machine Learning, NLP, Geospatial analysis, and Data Visualization
 
-## Our Vision?
+## Our Vision
 To enhance your business potential with data and AI
 
 ## Our Team

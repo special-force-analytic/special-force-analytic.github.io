@@ -277,7 +277,18 @@ Next, we'll be looking at how customers in each cohort group retain on the platf
 
 ![](img/customer/cohort.png)
 
-## 3. Geo-Location Analytics
+## 3. Time-Series Analysis
+<img src='/img/time_series/order_daily.png' height='300'>
+<br>
+<img src='/img/time_series/order_weekly.png' height='300'>
+<br>
+<img src='/img/time_series/order_monthly.png' height='300'>
+<br>
+<img src='/img/time_series/order_weekly_predict.png' height='300'>
+<br>
+<img src='/img/time_series/order_weekly_trends.png'>
+
+## 4. Geo-Location Analytics
 `olist_geolocation_dataset` can be used to discover and understand the data from the location perspective, in this case, using the location of the customers. This dataset can help plotting the distribution of zip codes across the country, state, and city level.
 
 {% include zip_code_location.html %}
@@ -286,7 +297,7 @@ Next, we'll be looking at how customers in each cohort group retain on the platf
 
 <br>
 
-### 3.1 Other analyses by zip codes
+### 4.1 Other analyses by zip codes
 The other datasets such as `olist_order_customer_dataset`, `olist_orders_dataset`, and `olist_order_items_dataset` can be merged with the geo-location data; to produce analysis with greater insight. Not only we know where they are, but also what happen within that region. For example, using the geo-location we can 1) discover the revenue of the order, 2) calculate aggregated freight value per area, 3) explore average delivery time, and so on in a granulate zip code level.
 
 {% include zip_code_revenue.html %}
@@ -295,7 +306,7 @@ The other datasets such as `olist_order_customer_dataset`, `olist_orders_dataset
 
 <br>
 
-### 3.2 Which region has the most order?
+### 4.2 Which region has the most order?
 
 City | Number of orders
 --- | --- 
@@ -311,12 +322,12 @@ Belo horizonte | 3144
 
 <br>
 
-### 3.3 What product should be recommend (is more popular) in different region? (normalised to the number of customer)
+### 4.3 What product should be recommend (is more popular) in different region? (normalised to the number of customer)
 By including `olist_products_dataset` dataset, we can explore what product is more preferred in different locations. The data also involve geographical area of Brazil using [Brazilian Subnational Administrative Boundaries](https://data.humdata.org/dataset/brazil-administrative-level-0-boundaries) we can visualize the analysis in regional level. It is clear that although big cities like Sao Paolo and Rio have more order than the other areas, preference of the product for customer can be varied and may not conform the high-demand or the high number of population living in that region.
 
 {% include product_ratio_state.html %}
 
-## 4. Review Analysis
+## 5. Review Analysis
 We could also extract insightful information from text data using the customer reviews data from `olist_order_reviews_dataset`. Customers' review is useful to explore the products' feedback and can also be used to support other analyses or target only a particular group of customers. The given dataset provides reviews in form of rating and comment corresponding to the orders.
 
 <br>

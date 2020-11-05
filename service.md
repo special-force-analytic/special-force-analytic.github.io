@@ -40,8 +40,12 @@ Here is our demo of a simple data platform with the following [Data Mangement Ap
 * [E-commerce](https://special-force-analytic.github.io/usecase/): The dataset is real commercial data that has been anonymised. It contains information of 100K orders from 2016 to 2018 made at marketplace in Brazil. It also features corresponding meta-data to an order including product attributes, customer attributes, seller attributes, payments, and reviews.
   * Offline Analytics
     * Basic EDA Analysis
-    * Seller Analysis (Single Seller View and Segmentation)
-    * Customer Analysis (Returning Customer and Customer Retention Analysis)
+    * Seller Analysis
+      * Single Seller View
+      * Seller Segmentation
+    * Customer Analysis
+      * Returning Customer
+      * Customer Retention Analysis
     * Time-Series Analysis
     * Geo Analysis
     * Review Analysis

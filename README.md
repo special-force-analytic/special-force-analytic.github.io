@@ -1,7 +1,7 @@
 # Showcase of DigitAIs
 
 ## Data Analytics Platform
-![](img/DAP.png)
+<img src='/img/DAP.png' width='300' height='200'>
 
 ![](img/CDAPD.png)
 

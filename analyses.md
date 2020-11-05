@@ -278,15 +278,15 @@ Next, we'll be looking at how customers in each cohort group retain on the platf
 ![](img/customer/cohort.png)
 
 ## 3. Time-Series Analysis
-<img src='/img/time_series/order_daily.png' height='300'>
+<img src='/img/time_series/order_daily.png' width="500" height='250'>
 <br>
-<img src='/img/time_series/order_weekly.png' height='300'>
+<img src='/img/time_series/order_weekly.png' width="500" height='250'>
 <br>
-<img src='/img/time_series/order_monthly.png' height='300'>
+<img src='/img/time_series/order_monthly.png' width="500" height='250'>
 <br>
-<img src='/img/time_series/order_weekly_predict.png' height='300'>
+<img src='/img/time_series/order_weekly_predict.png' width="500" height='250'>
 <br>
-<img src='/img/time_series/order_weekly_trends.png'>
+![](img/time_series/order_weekly_trends.png)
 
 ## 4. Geo-Location Analytics
 `olist_geolocation_dataset` can be used to discover and understand the data from the location perspective, in this case, using the location of the customers. This dataset can help plotting the distribution of zip codes across the country, state, and city level.
